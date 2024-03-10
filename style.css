@@ -1,0 +1,48 @@
+
+body{
+    background:linear-gradient(to right, rgb(85, 225, 213), rgb(215, 187, 154));
+    font-family: Roboto;
+}
+.content{
+    max-width: 60%;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    font-size: large;
+    background-color: beige;
+    padding: 3%;
+}
+.content h2{
+    position: relative;
+    left: 40%;
+}
+@media (max-width: 600px){
+    .content h2{
+        position: relative;
+        left: 15%;
+    }
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.one input[type="text"]{ 
+    padding: 1%;
+    width: 50%;
+}
+button{
+    border: none;
+    background-color: rgb(85, 225, 213);
+    padding: 1%;    
+    border-radius: 5px;
+}
+.task_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+}
+
